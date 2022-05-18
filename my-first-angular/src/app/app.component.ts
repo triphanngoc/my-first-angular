@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TAGS} from '../db-data'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-angular';
+  tagTime = TAGS[0];
+  tagPosition = TAGS[2];
+  tagStatus = TAGS[3];
 }
